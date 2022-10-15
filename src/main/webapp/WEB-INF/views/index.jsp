@@ -7,6 +7,6 @@
     <title>Gaurav</title>
 </head>
 <body>
-<h1>I am Gaurav Purwar with JSP2</h1>
+<h1>I am Gaurav Purwar with JSP3</h1>
 </body>
 </html>
