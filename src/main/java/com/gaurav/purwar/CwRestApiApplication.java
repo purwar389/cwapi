@@ -16,7 +16,7 @@ public class CwRestApiApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(CwRestApiApplication.class, args);
 
-		System.out.println("working very well!!!!");
+		System.out.println("working very well again!!!!");
 	}
 
 }
