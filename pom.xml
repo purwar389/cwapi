@@ -9,9 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gaurav</groupId>
-	<artifactId>purwar</artifactId>
+	<artifactId>cwgpapi</artifactId>
+<!--	<artifactId>purwar</artifactId>-->
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+<!--	<packaging>war</packaging>-->
 	<name>CwRestAPI</name>
 	<description>RestAPI for CW</description>
 	<properties>
