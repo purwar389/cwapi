@@ -18,10 +18,10 @@ public class CwRestApiApplication extends SpringBootServletInitializer {
 		return application.sources(ApiControllers.class);
 	}
 
-//	@GetMapping("/message")
-//	public String message(){
-//		return "I am ok! how are you?";
-//	}
+	@GetMapping("/message")
+	public String message(){
+		return "I am ok! how are you?";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(CwRestApiApplication.class, args);
