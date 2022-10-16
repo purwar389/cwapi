@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+//@RestController
 public class CwRestApiApplication extends SpringBootServletInitializer {
 
 	@Override
@@ -18,10 +18,10 @@ public class CwRestApiApplication extends SpringBootServletInitializer {
 		return application.sources(ApiControllers.class);
 	}
 
-	@GetMapping("/message")
-	public String message(){
-		return "I am ok! how are you?";
-	}
+//	@GetMapping("/message")
+//	public String message(){
+//		return "I am ok! how are you?";
+//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(CwRestApiApplication.class, args);
